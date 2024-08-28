@@ -22,6 +22,7 @@ function displayData(data) {
     var sales = data[i][1];
     var expenses = data[i][2];
     var profit = data[i][3];
+// this should be refactored into dynamic code lines
 
     card.innerHTML = `
       <h2>${date}</h2>
